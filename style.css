@@ -17,9 +17,12 @@
 }
 
 .banner {
-    color: white;
+    color: gold;
     font-size: 4rem;
-
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 
