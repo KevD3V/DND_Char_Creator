@@ -1,3 +1,32 @@
 * {
-    background-color: blue;
+    margin: 0;
+
+}
+
+
+.row {
+    display: flex;
+}
+
+.left {
+    width: 30%;
+    height: 100vh;
+    background-size: cover;
+    background-image: url("images/skelly-wall.jpg");
+    /*background-color: black;*/
+}
+
+.banner {
+    color: white;
+    font-size: 4rem;
+
+}
+
+
+
+
+.right {
+    width: 70%;
+    height: 100vh;
+    background-color: grey;
 }
