@@ -2,7 +2,10 @@
  Fonts downloaded from: https://www.1001freefonts.com/
  Fonts converted from TFF to WOFF2 using: https://cloudconvert.com/ttf-to-woff2
 */
-
+@font-face {
+    font-family: immortal;
+    src: url(fonts/IMMORTAL_.woff2);
+}
 
 
 * {
@@ -26,6 +29,7 @@
 .banner {
     margin-top: 100px;
     color: gold;
+    font-family: immortal, 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 4rem;
     display: flex;
     flex-direction: column;
