@@ -17,6 +17,7 @@
 }
 
 .banner {
+    margin-top: 100px;
     color: gold;
     font-size: 4rem;
     display: flex;
