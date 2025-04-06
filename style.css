@@ -13,6 +13,10 @@
 
 }
 
+body {
+    background-color: #333300;
+}
+
 
 .row {
     display: flex;
@@ -43,5 +47,10 @@
 .right {
     width: 70%;
     height: 100vh;
-    background-color: grey;
+    background-color: black;
+}
+
+button {
+    background-color: #ffffcc;
+
 }
