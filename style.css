@@ -24,6 +24,7 @@ body {
 
 .left {
     width: 30%;
+    min-width: 300px;
     height: 100vh;
     background-size: cover;
     background-image: url("images/skelly-wall.jpg");
@@ -46,6 +47,7 @@ body {
 
 .right {
     width: 70%;
+    min-width: 800px;
     height: 100vh;
     background-color: black;
 
@@ -58,10 +60,51 @@ form {
     color: white;
 }
 
+fieldset {
+    display: flex;
+
+    flex-wrap: wrap;
+    margin: 10px;
+
+}
+
 .label-input-container {
     display: inline-block;
+    margin: 3px;
 }
+
+
+
 
 button {
     background-color: #ffffcc;
+    height: 3rem;
+    font-size: 1.5rem;
+    font-weight: 700;
 }
+
+#equipment {
+    width: 100%;
+}
+
+#createAccount {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+#createAccount div.label-input-container {
+    display: block;
+
+    label {
+        display: block;
+    }
+}
+
+.create-account-left {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.create-account-right {}
