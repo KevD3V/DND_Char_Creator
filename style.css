@@ -1,7 +1,11 @@
 /*
  Fonts downloaded from: https://www.1001freefonts.com/
  Fonts converted from TFF to WOFF2 using: https://cloudconvert.com/ttf-to-woff2
-*/
+
+ Background image from: 
+
+
+ */
 @font-face {
     font-family: immortal;
     src: url(fonts/IMMORTAL_.woff2);
@@ -28,6 +32,7 @@ body {
     background-size: cover;
     background-image: url("images/skelly-wall.jpg");
     /*background-color: black;*/
+
 }
 
 .banner {
@@ -41,6 +46,19 @@ body {
     align-items: center;
 }
 
+.credit_container {
+    position: fixed;
+    bottom: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+    min-width: 300px;
+}
+
+.credit {
+    color: white;
+}
 
 
 
@@ -119,3 +137,20 @@ button {
 }
 
 .create-account-right {}
+
+
+input:focus {
+    border: 3px solid blue;
+}
+
+#email:invalid {
+    border: 3px solid #FF0000;
+}
+
+#password:invalid {
+    border: 3px solid #FF0000;
+}
+
+#confirm_password:invalid {
+    border: 3px solid #FF0000;
+}
