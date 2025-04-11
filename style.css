@@ -90,6 +90,8 @@ button {
     height: 3rem;
     font-size: 1.5rem;
     font-weight: 700;
+    margin-left: 10px;
+    border: 5px outset rgba(211, 240, 10, 0.51);
 }
 
 #equipment {
